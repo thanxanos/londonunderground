@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import AboutSection from './Components/AboutSection.js';
+import BandList from './Components/BandList.js';
+import Cart from './Components/Cart.js';
+import Landing from './Components/Landing.js';
+import Map from './Components/Map.js';
+import TicketRotation from './Components/TicketRotation.js';
+import Footer from './Components/Footer.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Landing />
+      <AboutSection/>
+      <BandList />
+      <Map />
+      <TicketRotation />
+      <Footer />
     </div>
   );
 }
