@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import AboutSection from './Components/AboutSection.js';
 import BandList from './Components/BandList.js';
-import Cart from './Components/Cart.js';
+// import Cart from './Components/Cart.js';
 import Landing from './Components/Landing.js';
 import Map from './Components/Map.js';
 import TicketRotation from './Components/TicketRotation.js';
